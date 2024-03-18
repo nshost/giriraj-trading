@@ -48,7 +48,7 @@ const QuotePages = () => {
       };
 
       // Make the fetch request
-      const response = await fetch('http://localhost:5000/sendQuotes', {
+      const response = await fetch('https://backend-oqbd.onrender.com/sendQuotes', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

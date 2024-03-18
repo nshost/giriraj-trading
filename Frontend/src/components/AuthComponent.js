@@ -11,7 +11,7 @@ const AuthComponent = () => {
 
   const handleSignup = async () => {
     try {
-      const response = await fetch('http://localhost:5000/signup', {
+      const response = await fetch('https://backend-oqbd.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -30,7 +30,7 @@ const AuthComponent = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await fetch('http://localhost:5000/signin', {
+      const response = await fetch('https://backend-oqbd.onrender.com/signin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
